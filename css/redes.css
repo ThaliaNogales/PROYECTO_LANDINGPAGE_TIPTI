@@ -8,7 +8,7 @@
     gap: 2vh;
     width: 1%;
     justify-items: start;
-    color: rgba(126, 126, 126, 1);
+    color: rgba(247, 238, 238, 0.512);
 
     
 
@@ -25,8 +25,8 @@
     #rayitaredes {
         margin-top: 8vh;
         margin-left: 10%;
-        border: 1px solid;        
-        height: 7vh;
+        border: 2px solid;        
+        height: 8vh;
         width: 0.05%;        
     }
 
