@@ -1,0 +1,76 @@
+.secciontitulos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    padding: 15vh;
+    
+    .contBuscador {
+        justify-self: end;
+            
+        .buscador{
+            position: relative;
+            img {
+                position: absolute;                    
+                margin-right: 20px;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 20px;
+         
+            }
+
+            input {
+                color:rgba(255, 255, 255, 1);
+                text-decoration: none;
+                border: 1px solid rgba(255, 255, 255, 1);
+                border-radius: 100px;
+                padding: 2vh 10vh;
+                width: fit-content;
+                background-color: transparent;
+    
+                &::placeholder {
+                    color:rgb(233, 241, 235);
+                    font-family: Brandon_Grotesque_light; font-size: 20px;
+                    font-weight: lighter;
+                    justify-self: flex-start;
+                }
+            }
+    
+            
+        }        
+    }
+
+    .titulo {
+        align-self:self-end;
+
+        h2 {
+            color:rgba(180, 183, 183, 1);
+                    font-family: 'PFRegalDisplayPro-Regular';
+                    font-size: 40px;
+        }
+
+        h1 {
+            color:rgba(255, 255, 255, 1);
+                    font-family: Brandon_Grotesque_light;
+                    font-weight: lighter;
+                    font-size: 80px;     
+                    margin-bottom: 4.62%;
+        }
+
+        a {
+            color:rgba(255, 255, 255, 1);
+            text-decoration: none;
+            border: 1px solid rgba(255, 255, 255, 1);
+            border-radius: 100px;
+            padding: 1vh 5vh;
+            width: fit-content;
+
+            font-family: Brandon_Grotesque_light;
+                        font-weight: lighter;
+                        font-size: 30px;
+                        white-space: nowrap
+
+            
+        }
+    }
+}

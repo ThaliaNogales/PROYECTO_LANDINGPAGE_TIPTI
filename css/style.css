@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: 'PFR-Regular';
+    src: url('./font/PFR/PFRegalDisplayPro-Regular.ttf');
+  }
+  
+  /**BRANDON GROTESQUE**/
+  @font-face {
+    font-family: 'Brandon_reg';
+    src: url('./font/PFR/PFRegalDisplayPro-Regular.ttf');
+  }
+  
+  .f1{font-family: 'PFR-Regular';}
+  
+  .f2{font-family: 'Brandon_reg';}
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'PFR-Regular';
+  }
