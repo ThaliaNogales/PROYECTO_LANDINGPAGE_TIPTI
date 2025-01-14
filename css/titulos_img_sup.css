@@ -102,7 +102,7 @@
 }
 
 .imgsup__img{
-    background-image:url(/img/banner.png);
+    background-image:url(/img/banner/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@
 
 @media (max-width: 480px) {
     .imgsup__img{
-    background-image: url(/img/banner-mobile.png);
+    background-image: url(/img/banner/banner-mobile.png);
     }
 }
 
