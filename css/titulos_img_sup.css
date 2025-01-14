@@ -102,8 +102,8 @@
 }
 
 .imgsup__img{
-    background-image: url(/img/banner.png);
-    background-position: center center;
+    background-image:url(/img/banner.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
